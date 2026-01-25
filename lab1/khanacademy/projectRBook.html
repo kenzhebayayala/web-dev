@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Project: Recipe book</title>
+    <meta charset="utf-8">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: rgb(255, 248, 240);
+            margin: 20px;
+            color: rgb(60, 40, 20);
+        }
+
+        h1 {
+            color: rgb(120, 60, 30);
+            text-align: center;
+        }
+
+        h2 {
+            color: rgb(140, 80, 40);
+        }
+
+        ol {
+            background-color: rgb(255, 230, 200);
+            padding: 20px;
+            border-radius: 10px;
+            width: 60%;
+        }
+
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(140, 80, 40);
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: rgb(255, 230, 200);
+        }
+
+        .recipe {
+            margin-top: 40px;
+            padding: 20px;
+            background-color: rgb(255, 240, 220);
+            border-radius: 15px;
+            width: 85%;
+        }
+
+        .recipe img {
+            width: 100%;
+            max-width: 500px;
+            border-radius: 10px;
+            display: block;
+            margin: 10px 0;
+        }
+
+        .details {
+            list-style-type: square;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Kenzhebay's Recipe Book</h1>
+
+    <h2>Contents:</h2>
+
+    <ol>
+        <li><a href="#carbonara">Spaghetti Carbonara</a></li>
+        <li><a href="#cookies">Chocolate Chip Cookies</a></li>
+    </ol>
+
+    <!-- Recipe #1 -->
+    <div class="recipe">
+        <h2 id="carbonara">Spaghetti Carbonara</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/Spaghetti_alla_Carbonara_%28cropped%29.jpg"
+            alt="Spaghetti Carbonara">
+
+        <ul class="details">
+            <li>Time: 20 minutes</li>
+            <li>Serves: 2</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Spaghetti</td>
+                    <td>200g</td>
+                </tr>
+                <tr>
+                    <td>Pancetta or bacon</td>
+                    <td>100g</td>
+                </tr>
+                <tr>
+                    <td>Eggs</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Parmesan cheese</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Black pepper</td>
+                    <td>1 tsp</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ol>
+            <li>Boil the spaghetti in salted water.</li>
+            <li>Cook pancetta in a pan until crispy.</li>
+            <li>Mix eggs and cheese in a bowl.</li>
+            <li>Combine hot pasta with pancetta and egg mixture.</li>
+            <li>Stir quickly and add pepper.</li>
+        </ol>
+
+        <p><em>Source: <a href="https://en.wikipedia.org/wiki/Carbonara" target="_blank">Wikipedia - Carbonara</a></em>
+        </p>
+    </div>
+
+    <!-- Recipe #2 -->
+    <div class="recipe">
+        <h2 id="cookies">Chocolate Chip Cookies</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/69/Chocolate_Chip_Cookies_-_kimberlykv.jpg"
+            alt="Chocolate Chip Cookies">
+
+        <ul class="details">
+            <li>Time: 25 minutes</li>
+            <li>Serves: 12 cookies</li>
+        </ul>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Ingredients</th>
+                    <th>Quantity</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Butter</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Sugar</td>
+                    <td>1/2 cup</td>
+                </tr>
+                <tr>
+                    <td>Egg</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Flour</td>
+                    <td>1 cup</td>
+                </tr>
+                <tr>
+                    <td>Chocolate chips</td>
+                    <td>1/2 cup</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ol>
+            <li>Mix butter and sugar together.</li>
+            <li>Add egg and mix well.</li>
+            <li>Add flour and stir until dough forms.</li>
+            <li>Mix in chocolate chips.</li>
+            <li>Drop spoonfuls on a baking tray and bake at 180°C for 10–12 minutes.</li>
+        </ol>
+
+        <p><em>Source: <a href="https://en.wikipedia.org/wiki/Chocolate_chip_cookie" target="_blank">Wikipedia -
+                    Chocolate chip cookie</a></em></p>
+    </div>
+
+</body>
+
+</html>
