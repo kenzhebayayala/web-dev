@@ -1,0 +1,38 @@
+/* table,
+th,
+td { to add border 
+    border: 1px solid black;
+} */
+
+/* coolapased table corders */
+/* table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+} */
+
+table,
+th,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    background-color: #96D4D4;
+}
+
+/* round table borders */
+table,
+th,
+td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+/* doted table borders  */
+ /* th,
+ td {
+     border-style: dotted;-> dashed,solid,double,groove,ridge,insert,outset,non,hidden
+ } */
