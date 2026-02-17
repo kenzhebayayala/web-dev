@@ -1,0 +1,7 @@
+:host {
+    display: block;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    background: #fafafa;
+    min-height: 100vh;
+}

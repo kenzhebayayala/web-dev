@@ -1,0 +1,37 @@
+<div class="card">
+
+    <!-- IMAGE -->
+    <img *ngIf="product.image" [src]="product.image" [alt]="product.name" class="product-img" />
+
+    <!-- TOP -->
+    <div class="top">
+        <h3 class="name">{{ product.name }}</h3>
+        <span class="id">#{{ product.id }}</span>
+    </div>
+
+    <!-- DESCRIPTION (show / hide) -->
+    <p class="desc" *ngIf="showDescription">
+        {{ product.description }}
+    </p>
+
+    <button class="btn" (click)="toggleDescription()">
+        {{ showDescription ? 'Hide description' : 'Show description' }}
+    </button>
+
+    <!-- PRICE + RATING -->
+    <div class="meta">
+        <div><b>Price:</b> {{ product.price }}</div>
+        <div><b>Rating:</b> {{ product.rating }}</div>
+    </div>
+
+    <!-- ACTIONS -->
+    <div class="actions">
+        <a class="link" [href]="product.link" target="_blank">
+            Open on Kaspi
+        </a>
+
+        <button class="btn" (click)="open()">Open</button>
+        <button class="btn" (click)="share()">Copy link</button>
+    </div>
+
+</div>
