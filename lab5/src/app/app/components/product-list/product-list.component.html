@@ -1,0 +1,8 @@
+@if (products.length === 0) {
+<p>No products in this category</p>
+} @else {
+@for (p of products; track p.id) {
+<app-product-item [product]="p" (remove)="onRemove($event)">
+</app-product-item>
+}
+}
